@@ -1,0 +1,3 @@
+interface IHazardNotifier {
+    void NotifyHazard();
+}
