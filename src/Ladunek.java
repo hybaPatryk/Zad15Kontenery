@@ -2,7 +2,7 @@ public class Ladunek {
     private String nazwa;
     private double temp;
 
-    public Ladunek(String nazwa, double temp, boolean danger) {
+    public Ladunek(String nazwa, double temp) {
         this.nazwa = nazwa;
         this.temp = temp;
     }

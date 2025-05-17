@@ -66,4 +66,15 @@ public abstract class Kontener {
         this.Id = Id;
     }
 
+    @Override
+    public String toString() {
+        return "Kontener{" +
+                "mLadunku_kg=" + mLadunku_kg +
+                ", maxMLadunku_kg=" + maxMLadunku_kg +
+                ", mKont_kg=" + mKont_kg +
+                ", wysokoscKont_cm=" + wysokoscKont_cm +
+                ", serokoscKont_cm=" + serokoscKont_cm +
+                ", Id='" + Id + '\'' +
+                '}';
+    }
 }
